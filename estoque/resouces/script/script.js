@@ -1,5 +1,6 @@
 
 let produtos = ["Mouse","Teclado","Monitor","Gabinete","Webcam","Headset","Roteador","Fonte","SSD","Cadeira"]; 
+let recebe = prompt ("Digite um item para seu computador:")
 produtos.push("Placa de Vídeo", "Processador")
 
 produtos.push("Placa de Vídeo", "Processador");
@@ -22,6 +23,6 @@ if (produtos.includes("Fonte")) {
 }
 // pegando somente nomes grandes
 let produtosFiltrados = produtos.filter((p) => p.length > 5);
-// Mostrandu tudo na tela
+// Mostrando tudo na tela
 console.log(produtos);
 console.log(produtosFiltrados);
